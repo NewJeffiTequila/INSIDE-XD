@@ -1,4 +1,4 @@
 # bot_discord
-``sh
+```sh
 docker-compose up
 ```
