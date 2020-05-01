@@ -1,15 +1,8 @@
-const Discord = require('discord.js');
+require('dotenv/config');
+const {Bot} = require('./bot');
 
-const bot = new Discord.Client();
-
-bot.login('NzA1NjI3MTY0Njk0ODA2NTgx.XqugHw.SDKal62BVQmEVLhFz_js7K5FVqo');
+const bot = new Bot(process.env.DISCORD_TOKEN);
 
 bot.on('ready', () => {
-    console.log('entrei carai');
-});
-
-bot.on('message', msg => {
-    if (msg.content === 'Salve') {
-        msg.reply('fala tu');
-    }
+    console.log('LISTENING');
 });
