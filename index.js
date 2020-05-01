@@ -1,5 +1,9 @@
 const Discord = require('discord.js');
 
+require('dotenv/config');
+
+console.log(process.env.APP_NAME)
+
 const bot = new Discord.Client();
 
 bot.login('NzA1NjI3MTY0Njk0ODA2NTgx.XqugHw.SDKal62BVQmEVLhFz_js7K5FVqo');
