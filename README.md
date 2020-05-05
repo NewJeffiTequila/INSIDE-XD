@@ -1,6 +1,1 @@
-# bot_discord
-to run this project:
-
-```sh
-docker-compose up
-```
+[![N|Solid](https://imgur.com/V5o1QDf)]
